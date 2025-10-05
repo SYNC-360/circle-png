@@ -1110,64 +1110,42 @@ export default function CirclePNG() {
         </div>
       </div>
 
-      <footer className="bg-gray-900 text-gray-400 py-12">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-white mb-2">Circle Calculator Network</h2>
-            <p className="text-gray-400">Professional mathematical tools for education and professional use</p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">Core Calculators</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://circumferenceofacircle.com" className="hover:text-white transition-colors">Circumference Calculator</a></li>
-                <li><a href="https://areaofcircle.com" className="hover:text-white transition-colors">Area Calculator</a></li>
-                <li><a href="https://equationofacircle.com" className="hover:text-white transition-colors">Equation Calculator</a></li>
-                <li><a href="https://radiusofacircle.com" className="hover:text-white transition-colors">Radius Calculator</a></li>
-                <li><a href="https://diameterofacircle.com" className="hover:text-white transition-colors">Diameter Calculator</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">Formula Guides</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://circleareaformula.com" className="hover:text-white transition-colors">Area Formula πr²</a></li>
-                <li><a href="https://circumferenceofacircleformula.com" className="hover:text-white transition-colors">Circumference Formula 2πr</a></li>
-                <li><a href="https://areaofacircleformula.com" className="hover:text-white transition-colors">Circle Area Formula</a></li>
-                <li><a href="https://formulaforareaofacircle.com" className="hover:text-white transition-colors">Formula Guide</a></li>
-                <li><a href="https://surfaceareaofacircle.com" className="hover:text-white transition-colors">Surface Area Guide</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">Step-by-Step Tutorials</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://howtofindcircumference.com" className="hover:text-white transition-colors">How to Find Circumference</a></li>
-                <li><a href="https://howtofindareaofacircle.com" className="hover:text-white transition-colors">How to Find Area</a></li>
-                <li><a href="https://howtofindtheareaofacircle.com" className="hover:text-white transition-colors">Area Calculation Guide</a></li>
-                <li><a href="https://howtofindcircumferenceofacircle.com" className="hover:text-white transition-colors">Circumference Guide</a></li>
-                <li><a href="https://howtofindthecircumferenceofacircle.com" className="hover:text-white transition-colors">Complete Tutorial</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">Specialized Tools</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="https://unitcircleradians.com" className="hover:text-white transition-colors">Unit Circle Radians</a></li>
-                <li><a href="https://minecraftcirclechart.com" className="hover:text-white transition-colors">Minecraft Circle Chart</a></li>
-                <li><a href="https://circlepng.com" className="hover:text-white font-semibold transition-colors">Circle PNG Generator (Current)</a></li>
-                <li><a href="https://radiancircle.com" className="hover:text-white transition-colors">Radian Calculator</a></li>
-                <li><a href="https://circleequation.com" className="hover:text-white transition-colors">Circle Equation Tools</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
-            <p>© 2025 Circle Calculator Network. All tools are free to use for educational and professional purposes.</p>
-          </div>
-        </div>
-      </footer>
+      <footer className="mt-20 border-t-4 border-gradient bg-white">
+  <div className="max-w-6xl mx-auto px-4 py-10">
+    <div className="text-center mb-8">
+      <h3 className="text-lg font-bold text-gray-900 mb-2">Circle PNG Generator</h3>
+      <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+        Create perfect circle images for design projects. For mathematical calculations,
+        visit our <a href="https://circumferenceofacircle.com" 
+                    className="text-purple-600 hover:text-purple-800 font-semibold">
+        Circumference Calculator</a> - the most accurate circle measurement tool online.
+      </p>
+    </div>
+    
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-xs text-gray-500">
+      <div>
+        <div className="font-semibold text-gray-700">Free Tool</div>
+        <div>No watermarks</div>
+      </div>
+      <div>
+        <div className="font-semibold text-gray-700">Instant Download</div>
+        <div>PNG format</div>
+      </div>
+      <div>
+        <div className="font-semibold text-gray-700">Transparent BG</div>
+        <div>Alpha channel</div>
+      </div>
+      <div>
+        <div className="font-semibold text-gray-700">Unlimited Use</div>
+        <div>Commercial OK</div>
+      </div>
+    </div>
+    
+    <div className="mt-8 text-center text-xs text-gray-400">
+      © 2025 CirclePNG.com - Design Tools for Creatives
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
